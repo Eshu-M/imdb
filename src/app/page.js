@@ -1,5 +1,4 @@
 const API_KEY=process.env.API_KEY
-import Image from 'next/image'
 import Results from './components/Results';
 
 export default async function Home({searchParams}) {
